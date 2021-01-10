@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=56211" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=56211" type="text/javascript"></script>
+    <link href="css/main.css?v=68106" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=68106" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -44,6 +44,7 @@
                     <li><a href="aboutus.html">Quienes somos</a></li>
                     <li><a href="recipes.html">Recetas</a></li>
                     <li><a href="blogs.html">Blog</a></li>
+                    <li><a href="training.html">Entrenamiento</a></li>
                     <li><a href="app.html">APP</a></li>
                     <li><a href="contact.html">Contacto	</a></li>
                   </ul>
@@ -111,7 +112,7 @@
                     <div class="article__body">
                       <div class="article__grad"></div>
                       <div class="article__content">
-                        <h3 class="article__title">Facilisis blandit scelerisque
+                        <h3 class="article__title">Nisl orci et
                         </h3><a href="single-recipe.html" class="btn btn--link">Ver más<span class="fa fa-angle-right"></span></a>
                       </div>
                     </div>
@@ -261,19 +262,44 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-md-3">
+                  <div class="col-xs-6 col-md-2">
                     <div class="form__element">
-                      <div class="form__input">
-                        <input type="text" name="name" placeholder="Buscar por nombre" class="quicksearch">
+                      <div class="form__title">Calorias</div>
+                      <div data-filter-group="fasfas" class="form__input button-group selectors">
+                        <select class="filters-select">
+                          <option value="*">Todos</option>
+                          <option value=".calorias-1">Entre 0 y 50</option>
+                          <option value=".calorias-2">Entre 50 y 100</option>
+                          <option value=".calorias-3">Entre 100 y 150</option>
+                          <option value=".calorias-4">Entre 150 y 200</option>
+                          <option value=".calorias-5">Entre 200 y 250</option>
+                        </select>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-md-3">
+                  <div class="col-xs-6 col-md-2">
                     <div class="form__element">
-                      <div class="form__title">Calorias</div>
-                      <div class="form__input">
-                        <input type="text" name="name" placeholder="Ej: 100g" class="quicksearch">
+                      <div class="form__title">Recetas recomendadas</div>
+                      <div data-filter-group="fasfas" class="form__input button-group selectors">
+                        <select class="filters-select">
+                          <option value="*">Todos</option>
+                          <option value=".si">Si</option>
+                          <option value=".no">No</option>
+                        </select>
                       </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-4">
+                    <div class="form__element">
+                      <div class="form__title">Buscar por nombre</div>
+                      <div class="form__input">
+                        <input type="text" name="name" placeholder="Ej: Crema de zapallo" class="quicksearch">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-md-2">
+                    <div class="form__element">
+                      <div class="section__filter__reset isotope-reset">Borrar filtros</div>
                     </div>
                   </div>
                 </div>
@@ -282,7 +308,7 @@
           </div>
           <div class="section__body">
             <div class="cols cols--sm grid">
-              <div class="col-xs-6 col-md-4 entrada americana gluten carne presion salado despertarse">
+              <div class="col-xs-6 col-md-4 entrada americana gluten carne presion salado despertarse calorias-4">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/1.jpg"></div>
@@ -292,13 +318,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Placerat lobortis phasellus sem praesent tempor senectus nulla nisi conubia tristique malesuada.
+                      <p class="article__description">Semper per iaculis placerat semper nunc luctus commodo massa dictumst conubia fringilla.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 plato-princ peruana soya cerdo frita dulce almuerzo">
+              <div class="col-xs-6 col-md-4 plato-princ peruana soya cerdo frita dulce almuerzo calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/3.jpg"></div>
@@ -308,13 +334,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Feugiat leo pulvinar vitae sociosqu tincidunt iaculis hac per a interdum magna.
+                      <p class="article__description">Et purus rutrum mollis inceptos accumsan ligula commodo molestie ligula etiam curabitur.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 entrada arabe soya pollo sarten salado almuerzo">
+              <div class="col-xs-6 col-md-4 entrada arabe soya pollo sarten salado almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/4.jpg"></div>
@@ -324,13 +350,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Erat fringilla imperdiet ultrices felis viverra iaculis nam dictumst tristique gravida porttitor.
+                      <p class="article__description">Donec duis etiam rutrum imperdiet platea urna lacinia aptent lacinia inceptos dictum.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 plato-princ hungara lactosa vegano sarten dulce almuerzo">
+              <div class="col-xs-6 col-md-4 plato-princ hungara lactosa vegano sarten dulce almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/8.jpg"></div>
@@ -340,13 +366,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Colus aenean volutpat tempus cursus sem tortor primis egestas faucibus aenean quam.
+                      <p class="article__description">Est vivamus nisl leo consequat tristique etiam dictum euismod porta nec vivamus.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre mexicana gluten vegetariano licuado dulce almuerzo">
+              <div class="col-xs-6 col-md-4 postre mexicana gluten vegetariano licuado dulce almuerzo calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/9.jpg"></div>
@@ -355,14 +381,14 @@
                   <div class="article__body">
                     <div class="article__grad"></div>
                     <div class="article__content">
-                      <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Vehicula netus mattis himenaeos nibh aenean rhoncus netus posuere sodales fusce cursus.
+                      <h4 class="article__title">Crema de zapallo</h4>
+                      <p class="article__description">Elementum potenti elementum mauris aliquet inceptos diam faucibus bibendum vel luctus aenean.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 ensalada hungara gluten vegetariano presion salado almuerzo">
+              <div class="col-xs-6 col-md-4 ensalada hungara gluten vegetariano presion salado almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/10.jpg"></div>
@@ -372,13 +398,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Gravida inceptos volutpat elit volutpat leo fringilla fringilla pretium sollicitudin vestibulum ac.
+                      <p class="article__description">Tellus sed ante orci sapien hendrerit per urna mauris sociosqu massa inceptos.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre arabe lactosa carne vapor salado despertarse">
+              <div class="col-xs-6 col-md-4 postre arabe lactosa carne vapor salado despertarse calorias-3">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/11.jpg"></div>
@@ -388,13 +414,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Cras semper potenti pretium pulvinar dui vivamus proin quam condimentum accumsan aliquam.
+                      <p class="article__description">Sed torquent etiam aliquet erat facilisis dui molestie viverra per venenatis eget.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 ensalada mexicana lactosa cerdo frita salado desayuno">
+              <div class="col-xs-6 col-md-4 ensalada mexicana lactosa cerdo frita salado desayuno calorias-3">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/12.jpg"></div>
@@ -404,13 +430,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Phasellus mauris curabitur hac hac consequat venenatis vitae consectetur libero feugiat interdum.
+                      <p class="article__description">Torquent iaculis iaculis magna convallis quam suscipit aenean etiam aliquam quis nam.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre americana gluten pollo vapor salado desayuno">
+              <div class="col-xs-6 col-md-4 postre americana gluten pollo vapor salado desayuno calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/13.jpg"></div>
@@ -420,13 +446,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Ante aptent massa curae bibendum purus ullamcorper turpis aliquam elit et volutpat.
+                      <p class="article__description">Rutrum consequat hac scelerisque fermentum vulputate litora blandit est in luctus faucibus.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 entrada americana gluten carne presion salado despertarse">
+              <div class="col-xs-6 col-md-4 entrada americana gluten carne presion salado despertarse calorias-4">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/1.jpg"></div>
@@ -436,13 +462,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Dapibus tempor etiam commodo sed cursus rhoncus gravida potenti enim duis curabitur.
+                      <p class="article__description">Nulla velit aliquam fames fames molestie dictum interdum semper duis morbi a.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 plato-princ peruana soya cerdo frita dulce almuerzo">
+              <div class="col-xs-6 col-md-4 plato-princ peruana soya cerdo frita dulce almuerzo calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/3.jpg"></div>
@@ -452,13 +478,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Pharetra purus tincidunt lacinia proin sed vehicula senectus ante sem aliquet quisque.
+                      <p class="article__description">Ut ligula non proin elementum vivamus fusce neque netus lectus ac elementum.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 entrada arabe soya pollo sarten salado almuerzo">
+              <div class="col-xs-6 col-md-4 entrada arabe soya pollo sarten salado almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/4.jpg"></div>
@@ -468,13 +494,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Nec eget hendrerit pulvinar neque nec aenean massa taciti leo sociosqu posuere.
+                      <p class="article__description">Etiam laoreet ornare nulla nunc a fringilla aliquam mollis tempus convallis porttitor.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 plato-princ hungara lactosa vegano sarten dulce almuerzo">
+              <div class="col-xs-6 col-md-4 plato-princ hungara lactosa vegano sarten dulce almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/8.jpg"></div>
@@ -484,13 +510,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Lacinia pretium nullam sollicitudin inceptos sodales eros aenean potenti neque himenaeos curabitur.
+                      <p class="article__description">Vestibulum per curae porta class ad euismod varius dictumst curae per ante.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre mexicana gluten vegetariano licuado dulce almuerzo">
+              <div class="col-xs-6 col-md-4 postre mexicana gluten vegetariano licuado dulce almuerzo calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/9.jpg"></div>
@@ -499,14 +525,14 @@
                   <div class="article__body">
                     <div class="article__grad"></div>
                     <div class="article__content">
-                      <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Urna a arcu etiam porta vestibulum at hendrerit vulputate porta lacinia etiam.
+                      <h4 class="article__title">Crema de zapallo</h4>
+                      <p class="article__description">Leo consectetur hac quisque pharetra consectetur elit nec auctor aliquet arcu imperdiet.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 ensalada hungara gluten vegetariano presion salado almuerzo">
+              <div class="col-xs-6 col-md-4 ensalada hungara gluten vegetariano presion salado almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/10.jpg"></div>
@@ -516,13 +542,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Phasellus colus quis curae eleifend colus consequat curae adipiscing aliquet aliquam donec.
+                      <p class="article__description">Sollicitudin orci lobortis varius malesuada adipiscing etiam nec dictumst porttitor dui vestibulum.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre arabe lactosa carne vapor salado despertarse">
+              <div class="col-xs-6 col-md-4 postre arabe lactosa carne vapor salado despertarse calorias-3">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/11.jpg"></div>
@@ -532,13 +558,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Est suspendisse mauris fringilla rhoncus ullamcorper dui et imperdiet pretium consectetur conubia.
+                      <p class="article__description">Massa phasellus aenean elit dapibus id cubilia malesuada praesent augue inceptos potenti.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 ensalada mexicana lactosa cerdo frita salado desayuno">
+              <div class="col-xs-6 col-md-4 ensalada mexicana lactosa cerdo frita salado desayuno calorias-3">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/12.jpg"></div>
@@ -548,13 +574,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Cubilia placerat cursus massa vivamus congue ut facilisis odio sem quisque aliquet.
+                      <p class="article__description">Integer ligula curabitur cras id leo auctor mattis mattis per eget tempor.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre americana gluten pollo vapor salado desayuno">
+              <div class="col-xs-6 col-md-4 postre americana gluten pollo vapor salado desayuno calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/13.jpg"></div>
@@ -564,13 +590,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Condimentum magna varius himenaeos mattis a urna pulvinar neque est vivamus ornare.
+                      <p class="article__description">Ac dictumst imperdiet volutpat consectetur nulla phasellus vulputate non per suscipit suscipit.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 entrada americana gluten carne presion salado despertarse">
+              <div class="col-xs-6 col-md-4 entrada americana gluten carne presion salado despertarse calorias-4">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/1.jpg"></div>
@@ -580,13 +606,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Litora consectetur enim suscipit maecenas sapien tristique diam ultrices donec massa porttitor.
+                      <p class="article__description">Donec vivamus condimentum viverra auctor id senectus netus eleifend integer metus ante.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 plato-princ peruana soya cerdo frita dulce almuerzo">
+              <div class="col-xs-6 col-md-4 plato-princ peruana soya cerdo frita dulce almuerzo calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/3.jpg"></div>
@@ -596,13 +622,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Non metus ut a facilisis urna porttitor enim curabitur elementum pellentesque senectus.
+                      <p class="article__description">Ornare hac aenean aliquet nulla per litora litora rhoncus augue euismod ultrices.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 entrada arabe soya pollo sarten salado almuerzo">
+              <div class="col-xs-6 col-md-4 entrada arabe soya pollo sarten salado almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/4.jpg"></div>
@@ -612,13 +638,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Orci nibh lobortis duis quisque accumsan pellentesque vehicula blandit platea cras magna.
+                      <p class="article__description">Vel sollicitudin purus fermentum nisl erat tortor quisque commodo in nisi odio.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 plato-princ hungara lactosa vegano sarten dulce almuerzo">
+              <div class="col-xs-6 col-md-4 plato-princ hungara lactosa vegano sarten dulce almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/8.jpg"></div>
@@ -628,13 +654,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Maecenas elementum nostra nisi accumsan duis sagittis ac porta donec odio vitae.
+                      <p class="article__description">Elit platea habitant iaculis porttitor lacus quisque dictum massa cubilia aliquam habitant.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre mexicana gluten vegetariano licuado dulce almuerzo">
+              <div class="col-xs-6 col-md-4 postre mexicana gluten vegetariano licuado dulce almuerzo calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/9.jpg"></div>
@@ -643,14 +669,14 @@
                   <div class="article__body">
                     <div class="article__grad"></div>
                     <div class="article__content">
-                      <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Varius pharetra nec nullam sapien porttitor sed convallis elit ullamcorper viverra consequat.
+                      <h4 class="article__title">Crema de zapallo</h4>
+                      <p class="article__description">Tempus phasellus mi eu placerat laoreet semper convallis conubia tristique rutrum nunc.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 ensalada hungara gluten vegetariano presion salado almuerzo">
+              <div class="col-xs-6 col-md-4 ensalada hungara gluten vegetariano presion salado almuerzo calorias-5">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/10.jpg"></div>
@@ -660,13 +686,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Viverra molestie porta pharetra cursus sem eros quam aliquet rhoncus viverra convallis.
+                      <p class="article__description">Aliquam velit mi at suscipit semper nisi habitasse conubia aenean curabitur hac.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre arabe lactosa carne vapor salado despertarse">
+              <div class="col-xs-6 col-md-4 postre arabe lactosa carne vapor salado despertarse calorias-3">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/11.jpg"></div>
@@ -676,13 +702,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Enim at tincidunt feugiat eros vestibulum himenaeos sociosqu venenatis donec nisl donec.
+                      <p class="article__description">Imperdiet malesuada eget volutpat eleifend varius potenti enim pretium inceptos velit netus.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 ensalada mexicana lactosa cerdo frita salado desayuno">
+              <div class="col-xs-6 col-md-4 ensalada mexicana lactosa cerdo frita salado desayuno calorias-3">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/12.jpg"></div>
@@ -692,13 +718,13 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Euismod mauris bibendum leo augue viverra porta erat et auctor bibendum ultrices.
+                      <p class="article__description">Morbi suscipit consectetur quis odio vulputate commodo hac tortor tellus cras elementum.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
                 </article>
               </div>
-              <div class="col-xs-6 col-md-4 postre americana gluten pollo vapor salado desayuno">
+              <div class="col-xs-6 col-md-4 postre americana gluten pollo vapor salado desayuno calorias-1">
                 <article class="article--recipe article--recipe--min">
                   <div class="article__bg">
                     <div class="bg"><img src="img/uploads/13.jpg"></div>
@@ -708,7 +734,7 @@
                     <div class="article__grad"></div>
                     <div class="article__content">
                       <h4 class="article__title">Nombre receta</h4>
-                      <p class="article__description">Vehicula interdum luctus nisl purus vestibulum vehicula nibh elementum ligula suscipit accumsan.
+                      <p class="article__description">Primis augue maecenas consequat congue sollicitudin urna erat fames luctus blandit class.
                       </p><a href="single-recipe.html" class="btn btn--link">Ver receta<span class="fa fa-angle-right"></span></a>
                     </div>
                   </div>
@@ -728,7 +754,7 @@
           <div class="footer__logo"><img src="img/icons/logo.svg"></div>
           <div class="footer__body">
             <h3 class="h2 footer__title">Newsletter</h3>
-            <p class="footer__description">Risus colus libero consequat scelerisque condimentum enim arcu condimentum sociosqu. Tempus eleifend duis ultricies tortor habitant auctor laoreet interdum viverra porta sociosqu semper magna ultrices.
+            <p class="footer__description">Vulputate pellentesque est scelerisque netus aliquet eu netus ornare dui. Congue vulputate fermentum nostra curabitur euismod porta elementum non cras placerat ligula diam ac sem.
             </p>
             <div class="footer__form">
               <form>
@@ -788,6 +814,7 @@
                   <li><a href="#">Recetas</a></li>
                   <li><a href="#">Blogs</a></li>
                   <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="works.html">Trabaja con nosotros</a></li>
                 </ul>
               </div>
             </div>
